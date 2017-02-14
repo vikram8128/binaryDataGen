@@ -8,9 +8,12 @@
 //  eg. to generate 10010000 10010010 01000100 010
 //       testGenerator 2 100 3 001 3 0010
 //  Note: The end of the file will be padded with 0 to a full byte. 
+//  
+//  To compile: g++ -O3 -std=c++11 -o binaryDataGen binaryDataGen.cpp
 //
 
 #include <iostream>
+#include <cstring>
 using namespace std;
 
 void printError() {
